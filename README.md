@@ -14,6 +14,8 @@
 
 </ol>
 
+## DEMO VIDEO (https://drive.google.com/file/d/10eIsH_yKSHdU9VOqNSEB5JfEoG_Y9I5D/view)
+
 ## Description
 Team generator is a backend application that allows you to build a team using the integrated terminal.
 
