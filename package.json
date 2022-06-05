@@ -1,12 +1,20 @@
 {
+  "name": "Team Profile Generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "watch": "nodemon index",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.2"
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.1"
   },
   "devDependencies": {
-    "jest": "^27.5.1"
-  },
-  
-  "scripts": {
-    "test": "jest"
+    "jest": "^24.9.0"
   }
 }
