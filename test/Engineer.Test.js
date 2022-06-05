@@ -10,8 +10,8 @@ describe("Engineer", () => {
     });
     describe("getName", () => {
         it("Should return the name provided to the constructor function as the first argument", () => {
-            const newEngineer = new Engineer.Engineer("John Namesman", 123, "John@me.com");
-            const str = "John Namesman";
+            const newEngineer = new Engineer.Engineer("Hugo Sanchez", 123, "juice@juice.com");
+            const str = "Hugo Sanchez";
             const result = newEngineer.getName();
             expect(str).toEqual(result);
         });
@@ -19,7 +19,7 @@ describe("Engineer", () => {
 });
     describe("getId", () => {
         it("Should return the id provided to the constructor function as the second argument", () => {
-            const newEngineer = new Engineer.Engineer("John Namesman", 123, "John@me.com");
+            const newEngineer = new Engineer.Engineer("Hugo Sanchez", 123, "juice@juice.com");
             const num = 123;
             const result = newEngineer.getId();
             expect(num).toEqual(result);
@@ -27,15 +27,15 @@ describe("Engineer", () => {
     });
     describe("getEmail", () => {
         it("Should return the email provided to the constructor function as the third argument", () => {
-            const newEngineer = new Engineer.Engineer("John Namesman", 123, "John@me.com");
-            const str = "John@me.com";
+            const newEngineer = new Engineer.Engineer("Hugo Sanchez", 123, "juice@juice.com");
+            const str = "juice@juice.com";
             const result = newEngineer.getEmail();
             expect(str).toEqual(result);
         });
     });
     describe("getRole", () => {
         it("Should return the string: Engineer", () => {
-            const newEngineer = new Engineer.Engineer("John Namesman", 123, "John@me.com");
+            const newEngineer = new Engineer.Engineer("Hugo Sanchez", 123, "juice@juice.com");
             const str = "Engineer";
             const result = newEngineer.getRole();
             expect(str).toEqual(result);
@@ -43,8 +43,8 @@ describe("Engineer", () => {
     });
     describe("getGitHub", () => {
         it("Should return the github username provided to the constructor function as the fourth argument", () => {
-            const newEngineer = new Engineer.Engineer("John Namesman", 123, "John@me.com", "Stiltskinner");
-            const str = "Stiltskinner";
+            const newEngineer = new Engineer.Engineer("Hugo Sanchez", 123, "juice@juice.com", "Hugo530");
+            const str = "Hugo530";
             const result = newEngineer.getGitHub();
             expect(str).toEqual(result);
         });
