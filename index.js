@@ -1,5 +1,5 @@
 const fs = require("fs");
-const pageTemplate = require("./src/pageTemplate");
+const pageTemplate = require('./src/pageTemplate');
 const Employee = require('./lib/Employee');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
